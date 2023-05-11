@@ -1,0 +1,588 @@
+/*video 22
+.container{
+    border:2px solid rgb(51, 10, 10);
+    padding: 12px 15px;
+    margin:auto;
+    width: 800px;
+    height: 200px;
+    background-color: rgb(221, 164, 193);
+    font-family: inherit;
+
+}
+.btn{
+    background-color: gold;
+    padding: 6px;
+    cursor: pointer;
+    border: 0px solid green;
+    margin:auto 10px;
+    font-size: 13px;
+    border-radius: 3px;
+    
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:rgb(38, 70, 6);
+    background-color: cyan;
+
+}
+a:visited{
+    color: darkorange;
+}
+a:active{
+    color:indianred
+}*/
+
+/*video 23    Navbar*/
+/*
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+}
+.navbar li{
+    float:left;
+    margin: 13px 20px;
+    list-style: none;
+}
+.navbar ul{
+    overflow: auto;   /* to keep parents color seeting 
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 3px;
+}
+
+.navbar li a:hover{
+    color: red;
+}
+.Search {
+    float: right;
+    color: white;
+    padding: 12px 60px;
+}
+
+input{
+    border:2px solid black;
+    border-radius: 14px;
+    padding: 3px 14px;
+    width:130px;
+}
+*/
+/* video 24  CSS display property*/
+/*
+*{
+    box-sizing: border-box;
+}
+header{
+    margin: auto;
+    border: 2px solid red;
+    width: 1200px;
+}
+img{
+    width: 34px;
+    height: 70px;
+    display: block;  /* to conver to block element so that block properties can be applied to header together
+    margin: auto;
+}
+h3{
+    margin: 0px;
+    text-align: center;
+}
+.box {
+    border: 4px solid black;
+    background-color: grey;
+    margin: 4px 8px;
+    padding: 23px;
+    width: 32%;
+    box-sizing: border-box; /* so that width remains same whats defined here else margin,padding will impact.
+    display: inline-block;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+}
+*/
+
+/*  video 25 positions
+container{
+    border: 2px solid black;
+    background-color: khaki;
+    height: 3444px;
+}
+/* CSS Position: static (default), relative, absolute, fixed, sticky 
+.box{
+display: inline-block;
+border: 2px solid red;
+width: 150px;
+height: 150px;
+margin: 2px;
+}
+#box3{
+/* relative: Positions the element relative to its normal positon and will leave a gap at its normal position
+/* position: relative; */
+
+/* absolute: Positions the element relative to the positon of its first parent
+/* position: absolute; */
+
+/* top: 34px;
+left: 134px; */
+
+/* fixed: Positions the element relative to the browser window; 
+/* position: fixed;
+right: 4px;
+bottom: 2px */
+
+/* sticky: Positions the element relative to the users scroll position 
+position: sticky;
+top: 3px;
+}*/
+
+/* video 27 z-index 
+
+.box{
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+}
+#box-1{ 
+    position: relative;
+    top: 49px;
+    z-index: -35;
+    background-color: green;        }
+#box-2{  
+    position: relative;
+    top: 14px;
+    /* z-index  will work only for position: relative, absolute, fixed or sticky; 
+    z-index: -165;
+    /* will hide the element and the space 
+    /* display: none;  
+    /* will hide the element but will show its empty space 
+    /* visibility:hidden;  
+    background-color: red;        
+    }
+#box-3{  
+    background-color: blue;        }
+#box-4{ background-color: yellow;        }
+*/
+
+
+
+/* video 28 Flex properties 
+
+.container{
+    height: 544px; 
+    width: 100%;
+    border: 2px solid black;
+    display: flex; /* Initialize the container as a flex box 
+    
+    /* Flex properties for a flex container 
+
+    /* flex-direction: row; (Default value of flex-direction is row) 
+    /* flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; 
+    
+
+    /* flex-wrap: wrap; (Default value of flex-direction is no-wrap) 
+    /* flex-wrap: wrap-reverse; 
+
+    /* This is a shorthand for flex-direction: and flex-wrap: ;; 
+    /* flex-flow: row-reverse wrap; 
+
+    /* justify-content will justify the content in horizontal direction 
+    /* justify-content: center; 
+    /* justify-content: space-between; 
+    /* justify-content: space-evenly; 
+    /* justify-content: space-around; 
+
+    /* justify-content will justify the content in vertical direction 
+    /* align-items: center; 
+    /* align-items: flex-end; 
+    /* align-items: flex-start; 
+    /* align-items: stretch; 
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 3px;
+}
+
+#item-1{
+    /* Flex properties for a flex item 
+    /* Higher the order, later it shows up in the container 
+    /* order: 2; 
+
+    /* flex-grow: 2;
+    flex-shrink: 2; 
+
+}
+#item-2{
+    /* flex-grow: 3;
+    flex-shrink: 3 ; 
+    flex-basis: 160px;
+    /* when flex-direction is set to row flex-basis: will control width 
+    /* when flex-direction is set to column flex-basis: will control height 
+}
+#item-3{
+    /* flex: 2 2 230px; 
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: center;
+
+    }*/
+
+
+/* video 30 ..media queries 
+
+.box{
+    font-size: 72px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    display: none;
+}
+
+@media only screen and (max-width:300px){
+    #box-1{
+        display: block;
+        background-color: cyan;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width:500px) {
+    #box-2{
+        display: block;
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width: 500px) and (max-width:800px) {
+    #box-3{
+        display: block;
+        color: black;
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 800px)  {
+    #box-4{
+        display: block;
+        background-color: green;
+    }
+}*/
+
+/* video 31 more selectors 
+h1{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* if p is contained by any li which is contained by div 
+/* div li p{
+    color: yellow;
+    background-color: green;
+    font-weight: bold;
+} */
+
+/* if p is right inside div then this CSS will be applied 
+/* div > p{
+    color: yellow;
+    background-color: green;
+    font-weight: bold;
+} 
+
+/* if p is right after div i.e p is the next sibling of div
+/* div + p{
+    color: white;
+    background-color: rgb(238, 137, 137);
+} */
+
+
+/* video 32 attributes & nth child 
+
+.container {
+    display: block;
+    width: 233px;
+    margin: auto;
+}
+
+input {
+    display: block;
+}
+
+input[type='text'] {
+    padding: 23px;
+    border: 2px solid red;
+}
+
+a[target] {
+    font-size: 44px;
+    color: violet;
+}
+
+a[target='_self'] {
+    font-size: 14px;
+    color: rgb(13, 22, 151);
+}
+
+input[type='email'] {
+    color: yellow;
+    border: 4px solid black;
+}
+
+/* This will apply css for third child */
+/* li:nth-child(3){
+color: cyan;
+}
+
+li:nth-child(2n+0){
+color: red;
+} 
+
+li:nth-child(3n+3) {
+    color: red;
+}
+
+/* Odd child */
+/* li:nth-child(odd){
+background-color: yellow;
+} */
+
+/* Even child 
+li:nth-child(even) {
+    background-color: yellow;
+}*/
+
+/*   div.item{this is item-$}*5   emmet                       */   
+
+/* video animation,transformation,translation 36,37,38    
+.container{
+    background-color: brown;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box{
+    background-color: greenyellow;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    animation-name: raj;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+    animation-direction: reverse;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition:all;
+    /*transform: rotate(45deg);
+    display: flex;
+    align-items: center;            
+    justify-content: center;
+    }
+@keyframes raj{
+    from{
+        width: 50px;
+    }
+    to{
+        width: 300px;
+    }
+}
+.box:hover{
+    background-color: grey;
+    height: 300px;
+    width:300px;
+    border-radius: 40px;
+}*/
+
+/* grid videos
+.round{
+    display: grid;
+    background-color: cornflowerblue;
+    /*grid-template-columns: 300px auto 100px;
+    grid-template-columns: 2fr 3fr 5fr;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr 3fr; /* first 3 rows will devide in same ratio 1:1:3 rest rows will be 2fr 
+    grid-auto-rows: 2fr;   /* rest rows will be of 2fr 
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,2fr);
+    grid-column-gap: 8fr;
+    grid-row-gap: 1fr;*/
+    grid-template-columns: repeat(auto-fit ,minmax(300px,1fr));*/
+    
+}
+.container{
+    background-color: green;
+    /*height: 100px;
+    width: 50px;*/
+    padding: 34px;
+    margin:10px;
+
+}
+.container:first-child{
+    /*grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column: 1 /span 2;
+    grid-row: 1 /span 2;*/
+} 
+
+/* video 34 box shadow,text shadow */
+.card{
+    padding: 23px 12px;
+    margin: 23px 12px;
+    /* border: 2px solid red; */
+    background-color: burlywood;
+    /* box-shadow: offset-x offset-y color; */
+    /* box-shadow: offset-x offset-y blur-radius color; */
+    /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+
+    /* box-shadow: 10px 13px green; */
+    /* box-shadow: -10px -13px green; */
+    /* box-shadow: 7px 5px 10px green;
+    box-shadow: -7px -5px 10px green; */
+    /* box-shadow: -7px -5px 10px 34px green;    (y,x,blur,spread)*/
+    /* box-shadow: -7px -5px 10px 34px rgba(71, 172, 172, 0.5); */
+    box-shadow: inset 3px 5px green;
+
+    box-shadow: 3px 5px green, 4px 6px red;
+}
+.card h2{
+    /* text-shadow: 3px 4px red; */
+    /* text-shadow: 3px 2px 2px white; */
+    text-shadow: -3px -2px 2px white;
+}
+:root{
+    --box-color:violet;   /*variable*/
+}
+
+
+/* grid template area video 44*/
+
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'navbar navbar navbar navbar' 
+    'section section section aside'
+    'footer footer footer footer ';
+}
+.item{
+    background-color: yellow;
+    border: 3px solid black;
+    padding: 12px 23px;
+}
+#navbar{
+    grid-area: navbar;
+}
+#section{
+    grid-area: section;
+}
+#aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

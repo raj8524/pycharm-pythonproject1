@@ -1,0 +1,45 @@
+element= paragraph ,link,video,imgae
+<tageline attr1="value" attr2="value2"> Content</tagline>
+<p width="100px">this is p tag</p>
+<img src="">  ---enpty tag doesnt require closing
+<br>------enpty tag doesnt require closing
+<h1></h1> heading
+<pre>pre tag</pre>
+<b></b> boldtag
+<i></i> italic
+<strong></strong> same as b tag but holds strong value.
+<em> empasize tag same as i tag but has higher value
+<small> smalls the letters
+<mark> highlights tage
+<del> delte tag
+<ins> insert tag
+<sub> subscript 
+<sup> superscript
+<q> quotation tag
+<blockquote>  stuff from where u picked up
+<abbr> abbreation for short
+<address> address 
+<a href="> link to redirect to.
+target=to take new page
+href="#local" to take to same page of location defined id="local"
+<a href="mailto:admin@website.com">admin@website.com</a>   to send mail with id 
+<marquee> to keep moving text 
+<ol> ordered list,
+<li> list
+<ul> unordered list for bullets
+<dl>description list
+<table>
+<div> for structure for the site block element . it starts from new line and takes up whole width.
+<span> for inline element . it doesnt start from new line and takes up as much as width necessary as per content in it..
+<iframe> to add different website link and so that when we click it will start in new window.
+<audio controls>  audio format
+<video controls> video format
+<<embed> pdf format
+<object> pdf format
+html entities  are reserved words which we cant use normally.
+sementic element clearly describes its mening to both browser and developer.
+
+
+
+
+attribute-additional info about element

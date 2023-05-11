@@ -1,0 +1,4 @@
+,neighbor_id,priority,state,dead_time,address,interface
+0,10.8.250.10,0,FULL/  -,00:00:32,10.8.252.1,Vlan900
+1,10.8.250.5,0,FULL/  -,00:00:36,10.8.252.6,Port-channel7
+2,5.5.5.2,0,FULL/  -,00:00:35,10.8.252.22,Vlan5

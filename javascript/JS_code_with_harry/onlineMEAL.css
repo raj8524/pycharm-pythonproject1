@@ -1,0 +1,236 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+   
+}
+#logo{
+    margin: 9px 40px;
+}
+#logo img{
+    margin: 3px 10px;
+    height: 59px;
+    z-index: -1;
+    
+}
+#navbar ul{
+    display: flex;
+    margin: 3px 270px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 2rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+    
+}
+#navbar ul li a{
+    font-size: 1.5rem;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    /*display: block;*/
+    /*border: 2px solid red;*/
+    color: rgb(27, 4, 4);
+    margin: 2px 40px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+#navbar ::before{
+    background-color: rgb(148, 28, 64);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    content: "";
+    opacity: 0.9;
+    top: 0px;
+    left:0px;
+}
+#navbar ul li a:hover{
+    color: blue;
+    background-color:cyan;
+    
+}
+/* HOme section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 200px;
+    height: 500px;
+
+}
+#home::before{
+    content: "";
+    background: url('img/bg3.jpg') no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    top:0px;
+    left:0px;
+    opacity: 0.9;
+}
+.primary{
+    font-size: 2.8rem;
+    color: rgb(19, 16, 17);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#home p{
+    font-size: 1.8rem;
+    color: rgb(9, 10, 2);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+.btn{
+    width: 120px;
+    margin: 12px auto;
+    padding: 3px;
+    border-radius: 15px;
+    color: rgb(156, 14, 73);
+    background-color: darkgrey;
+    font-size: 1.3rem;
+    cursor: pointer;
+   
+}
+.secondary{
+    font-size: 1.6rem;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}
+.center{
+    text-align: center;
+}
+
+#services{
+    /*border: 2px solid blue;*/
+    display: flex;
+    margin: 15px 34px;
+    
+}
+#services .box{   
+    border: 3px solid green;
+    padding: 23px;
+    border-radius: 28px;
+    background: rgb(197, 194, 194);   
+    margin:0px 3px 0px 3px;  
+}
+#services .box img{   
+    height:100px;
+    /*border: 2px solid red;*/
+    display: block;
+    margin: auto;
+    border-radius: 15px;  
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+}
+
+/*client section*/
+#clients{
+    display: flex;
+    margin: 34px;  
+    justify-content: center; 
+    box-sizing: border-box;
+    
+}
+#clients .client-item{
+    /*border: 2px solid red;*/
+    width: 100%;
+    border-radius: 28px;
+    padding: 0px;
+    margin: 0px;  
+    /*background: cornsilk;*/
+}
+#clients .client-item img{
+    height: 200px;
+    width: 55%;
+    /*display: block;*/
+    border-radius: 28px;    
+    margin: 0px 40px; 
+    position: relative;    
+    top: -40px;
+}
+    
+#client-section{
+    position: relative;
+}
+
+#client-section::before{
+ content: "";
+ position: absolute;
+ background: url('img/clients.jpg');
+ width: 100%;
+ height: 90%;
+ z-index: -1;
+ opacity: 0.5;
+}
+/* Contact Section */
+#contact{
+    position: relative;
+    top: -50px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('img/contact2.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    
+}
+#contact-box .form-group input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.4rem;
+    
+}
+#contact-box .form-group textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.4rem;
+    height: 50px;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}

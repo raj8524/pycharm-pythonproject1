@@ -1,0 +1,24 @@
+$schema:schema version
+$id=unique id of schema
+title:open text(one-line)
+description:open text(multi-line)
+""$ref":"#/definations/welcome"
+
+
+#-----------Validation---------
+.Strings
+--minLength
+--maxLength
+--pattern
+
+.Arrays
+--minltems
+--uniqueitems
+
+.Numbers
+--minimum
+--exclusiveminimum
+--maximum
+--exclusivemaximum
+--multipleOf
+

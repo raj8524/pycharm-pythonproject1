@@ -1,0 +1,29 @@
+
+p{
+    color:red;
+}
+/*id selector */
+#p4{
+    color:green;
+}
+/* class-selector
+*/
+.dark-blue{
+    color:hotpink;
+}
+.underline_it{
+    text-decoration: underline;
+}
+#bg{
+    background-color: lavenderblush; 
+    
+}
+body{
+    background-color: gold;
+    background-image: url('images/patani.jpeg'),url('images/malang.jpeg');
+    background-position: left top,right top;
+    /*background-repeat: repeat; */
+    background-attachment: scroll;
+    
+
+}

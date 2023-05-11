@@ -1,0 +1,10 @@
+2021-03-07 23:27:27,305:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/raj.kumar/Desktop/pythonProject1/Mislenious/Logs--logging.py", line 140, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2021-05-12 10:29:33,665:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "D:\Study\Pycharm_python 2\pythonProject1\Mislenious\Logs--logging.py", line 140, in divide
+    result = x / y
+ZeroDivisionError: division by zero

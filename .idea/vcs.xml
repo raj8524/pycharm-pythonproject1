@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mislenious" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flask-project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flask-tut" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/html" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/javascript" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mysiteutils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ntc-templates" vcs="Git" />
+  </component>
+</project>

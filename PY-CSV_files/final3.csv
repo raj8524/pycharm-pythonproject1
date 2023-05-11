@@ -1,0 +1,1 @@
+interface,link_status,protocol_status,hardware_type,address,bia,description,ip_address,mtu,duplex,speed,media_type,bandwidth,delay,encapsulation,last_input,last_output,last_output_hang,queue_strategy,input_rate,output_rate,input_packets,output_packets,input_errors,crc,abort,output_errors

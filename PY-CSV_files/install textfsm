@@ -1,0 +1,6 @@
+install python
+install pip
+pip install textfsm
+git clone 
+git clone https://github.com/networktocode/ntc-templates.git
+export NET_TEXTFSM=/Users/raj.kumar/ntc-template/ntc-templates/templates

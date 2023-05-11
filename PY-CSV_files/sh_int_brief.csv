@@ -1,0 +1,474 @@
+,intf,ipaddr,status,proto
+0,Vlan1,unassigned,up,up
+1,Vlan243,10.8.243.52,up,up
+2,GigabitEthernet0/0,unassigned,administratively down,down
+3,GigabitEthernet1/0/1,unassigned,down,down
+4,GigabitEthernet1/0/2,unassigned,down,down
+5,GigabitEthernet1/0/3,unassigned,down,down
+6,GigabitEthernet1/0/4,unassigned,down,down
+7,GigabitEthernet1/0/5,unassigned,down,down
+8,GigabitEthernet1/0/6,unassigned,down,down
+9,GigabitEthernet1/0/7,unassigned,down,down
+10,GigabitEthernet1/0/8,unassigned,down,down
+11,GigabitEthernet1/0/9,unassigned,up,up
+12,GigabitEthernet1/0/10,unassigned,down,down
+13,GigabitEthernet1/0/11,unassigned,down,down
+14,GigabitEthernet1/0/12,unassigned,down,down
+15,GigabitEthernet1/0/13,unassigned,down,down
+16,GigabitEthernet1/0/14,unassigned,down,down
+17,GigabitEthernet1/0/15,unassigned,down,down
+18,GigabitEthernet1/0/16,unassigned,down,down
+19,GigabitEthernet1/0/17,unassigned,down,down
+20,GigabitEthernet1/0/18,unassigned,down,down
+21,GigabitEthernet1/0/19,unassigned,down,down
+22,GigabitEthernet1/0/20,unassigned,down,down
+23,GigabitEthernet1/0/21,unassigned,down,down
+24,GigabitEthernet1/0/22,unassigned,down,down
+25,GigabitEthernet1/0/23,unassigned,down,down
+26,GigabitEthernet1/0/24,unassigned,down,down
+27,GigabitEthernet1/0/25,unassigned,down,down
+28,GigabitEthernet1/0/26,unassigned,down,down
+29,GigabitEthernet1/0/27,unassigned,down,down
+30,GigabitEthernet1/0/28,unassigned,down,down
+31,GigabitEthernet1/0/29,unassigned,down,down
+32,GigabitEthernet1/0/30,unassigned,down,down
+33,GigabitEthernet1/0/31,unassigned,down,down
+34,GigabitEthernet1/0/32,unassigned,down,down
+35,GigabitEthernet1/0/33,unassigned,down,down
+36,GigabitEthernet1/0/34,unassigned,down,down
+37,GigabitEthernet1/0/35,unassigned,down,down
+38,GigabitEthernet1/0/36,unassigned,down,down
+39,GigabitEthernet1/0/37,unassigned,down,down
+40,GigabitEthernet1/0/38,unassigned,down,down
+41,GigabitEthernet1/0/39,unassigned,down,down
+42,GigabitEthernet1/0/40,unassigned,down,down
+43,GigabitEthernet1/0/41,unassigned,down,down
+44,GigabitEthernet1/0/42,unassigned,down,down
+45,GigabitEthernet1/0/43,unassigned,down,down
+46,GigabitEthernet1/0/44,unassigned,down,down
+47,GigabitEthernet1/0/45,unassigned,down,down
+48,GigabitEthernet1/0/46,unassigned,down,down
+49,GigabitEthernet1/0/47,unassigned,down,down
+50,GigabitEthernet1/0/48,unassigned,down,down
+51,GigabitEthernet1/1/1,unassigned,down,down
+52,GigabitEthernet1/1/2,unassigned,down,down
+53,GigabitEthernet1/1/3,unassigned,down,down
+54,GigabitEthernet1/1/4,unassigned,down,down
+55,Te1/1/1,unassigned,up,up
+56,Te1/1/2,unassigned,up,up
+57,Te1/1/3,unassigned,down,down
+58,Te1/1/4,unassigned,down,down
+59,Te1/1/5,unassigned,down,down
+60,Te1/1/6,unassigned,down,down
+61,Te1/1/7,unassigned,down,down
+62,Te1/1/8,unassigned,down,down
+63,Fo1/1/1,unassigned,down,down
+64,Fo1/1/2,unassigned,down,down
+65,TwentyFiveGigE1/1/1,unassigned,down,down
+66,TwentyFiveGigE1/1/2,unassigned,down,down
+67,Ap1/0/1,unassigned,up,up
+68,GigabitEthernet2/0/1,unassigned,down,down
+69,GigabitEthernet2/0/2,unassigned,down,down
+70,GigabitEthernet2/0/3,unassigned,down,down
+71,GigabitEthernet2/0/4,unassigned,down,down
+72,GigabitEthernet2/0/5,unassigned,down,down
+73,GigabitEthernet2/0/6,unassigned,down,down
+74,GigabitEthernet2/0/7,unassigned,down,down
+75,GigabitEthernet2/0/8,unassigned,down,down
+76,GigabitEthernet2/0/9,unassigned,down,down
+77,GigabitEthernet2/0/10,unassigned,down,down
+78,GigabitEthernet2/0/11,unassigned,down,down
+79,GigabitEthernet2/0/12,unassigned,down,down
+80,GigabitEthernet2/0/13,unassigned,down,down
+81,GigabitEthernet2/0/14,unassigned,down,down
+82,GigabitEthernet2/0/15,unassigned,down,down
+83,GigabitEthernet2/0/16,unassigned,down,down
+84,GigabitEthernet2/0/17,unassigned,down,down
+85,GigabitEthernet2/0/18,unassigned,down,down
+86,GigabitEthernet2/0/19,unassigned,down,down
+87,GigabitEthernet2/0/20,unassigned,down,down
+88,GigabitEthernet2/0/21,unassigned,down,down
+89,GigabitEthernet2/0/22,unassigned,down,down
+90,GigabitEthernet2/0/23,unassigned,down,down
+91,GigabitEthernet2/0/24,unassigned,down,down
+92,GigabitEthernet2/0/25,unassigned,down,down
+93,GigabitEthernet2/0/26,unassigned,down,down
+94,GigabitEthernet2/0/27,unassigned,down,down
+95,GigabitEthernet2/0/28,unassigned,down,down
+96,GigabitEthernet2/0/29,unassigned,down,down
+97,GigabitEthernet2/0/30,unassigned,up,up
+98,GigabitEthernet2/0/31,unassigned,down,down
+99,GigabitEthernet2/0/32,unassigned,up,up
+100,GigabitEthernet2/0/33,unassigned,down,down
+101,GigabitEthernet2/0/34,unassigned,up,up
+102,GigabitEthernet2/0/35,unassigned,down,down
+103,GigabitEthernet2/0/36,unassigned,up,up
+104,GigabitEthernet2/0/37,unassigned,down,down
+105,GigabitEthernet2/0/38,unassigned,up,up
+106,GigabitEthernet2/0/39,unassigned,down,down
+107,GigabitEthernet2/0/40,unassigned,up,up
+108,GigabitEthernet2/0/41,unassigned,up,up
+109,GigabitEthernet2/0/42,unassigned,up,up
+110,GigabitEthernet2/0/43,unassigned,down,down
+111,GigabitEthernet2/0/44,unassigned,up,up
+112,GigabitEthernet2/0/45,unassigned,down,down
+113,GigabitEthernet2/0/46,unassigned,up,up
+114,GigabitEthernet2/0/47,unassigned,down,down
+115,GigabitEthernet2/0/48,unassigned,up,up
+116,GigabitEthernet2/1/1,unassigned,down,down
+117,GigabitEthernet2/1/2,unassigned,down,down
+118,GigabitEthernet2/1/3,unassigned,down,down
+119,GigabitEthernet2/1/4,unassigned,down,down
+120,Te2/1/1,unassigned,down,down
+121,Te2/1/2,unassigned,down,down
+122,Te2/1/3,unassigned,down,down
+123,Te2/1/4,unassigned,down,down
+124,Te2/1/5,unassigned,down,down
+125,Te2/1/6,unassigned,down,down
+126,Te2/1/7,unassigned,down,down
+127,Te2/1/8,unassigned,down,down
+128,Fo2/1/1,unassigned,down,down
+129,Fo2/1/2,unassigned,down,down
+130,TwentyFiveGigE2/1/1,unassigned,down,down
+131,TwentyFiveGigE2/1/2,unassigned,down,down
+132,Ap2/0/1,unassigned,up,up
+133,GigabitEthernet3/0/1,unassigned,up,up
+134,GigabitEthernet3/0/2,unassigned,down,down
+135,GigabitEthernet3/0/3,unassigned,up,up
+136,GigabitEthernet3/0/4,unassigned,down,down
+137,GigabitEthernet3/0/5,unassigned,up,up
+138,GigabitEthernet3/0/6,unassigned,down,down
+139,GigabitEthernet3/0/7,unassigned,down,down
+140,GigabitEthernet3/0/8,unassigned,down,down
+141,GigabitEthernet3/0/9,unassigned,up,up
+142,GigabitEthernet3/0/10,unassigned,down,down
+143,GigabitEthernet3/0/11,unassigned,up,up
+144,GigabitEthernet3/0/12,unassigned,down,down
+145,GigabitEthernet3/0/13,unassigned,up,up
+146,GigabitEthernet3/0/14,unassigned,down,down
+147,GigabitEthernet3/0/15,unassigned,down,down
+148,GigabitEthernet3/0/16,unassigned,down,down
+149,GigabitEthernet3/0/17,unassigned,down,down
+150,GigabitEthernet3/0/18,unassigned,down,down
+151,GigabitEthernet3/0/19,unassigned,down,down
+152,GigabitEthernet3/0/20,unassigned,down,down
+153,GigabitEthernet3/0/21,unassigned,down,down
+154,GigabitEthernet3/0/22,unassigned,up,up
+155,GigabitEthernet3/0/23,unassigned,down,down
+156,GigabitEthernet3/0/24,unassigned,up,up
+157,GigabitEthernet3/0/25,unassigned,down,down
+158,GigabitEthernet3/0/26,unassigned,up,up
+159,GigabitEthernet3/0/27,unassigned,down,down
+160,GigabitEthernet3/0/28,unassigned,up,up
+161,GigabitEthernet3/0/29,unassigned,down,down
+162,GigabitEthernet3/0/30,unassigned,up,up
+163,GigabitEthernet3/0/31,unassigned,down,down
+164,GigabitEthernet3/0/32,unassigned,up,up
+165,GigabitEthernet3/0/33,unassigned,down,down
+166,GigabitEthernet3/0/34,unassigned,up,up
+167,GigabitEthernet3/0/35,unassigned,down,down
+168,GigabitEthernet3/0/36,unassigned,up,up
+169,GigabitEthernet3/0/37,unassigned,down,down
+170,GigabitEthernet3/0/38,unassigned,up,up
+171,GigabitEthernet3/0/39,unassigned,down,down
+172,GigabitEthernet3/0/40,unassigned,up,up
+173,GigabitEthernet3/0/41,unassigned,down,down
+174,GigabitEthernet3/0/42,unassigned,up,up
+175,GigabitEthernet3/0/43,unassigned,down,down
+176,GigabitEthernet3/0/44,unassigned,up,up
+177,GigabitEthernet3/0/45,unassigned,down,down
+178,GigabitEthernet3/0/46,unassigned,up,up
+179,GigabitEthernet3/0/47,unassigned,down,down
+180,GigabitEthernet3/0/48,unassigned,up,up
+181,GigabitEthernet3/1/1,unassigned,down,down
+182,GigabitEthernet3/1/2,unassigned,down,down
+183,GigabitEthernet3/1/3,unassigned,down,down
+184,GigabitEthernet3/1/4,unassigned,down,down
+185,Te3/1/1,unassigned,down,down
+186,Te3/1/2,unassigned,down,down
+187,Te3/1/3,unassigned,down,down
+188,Te3/1/4,unassigned,down,down
+189,Te3/1/5,unassigned,down,down
+190,Te3/1/6,unassigned,down,down
+191,Te3/1/7,unassigned,down,down
+192,Te3/1/8,unassigned,down,down
+193,Fo3/1/1,unassigned,down,down
+194,Fo3/1/2,unassigned,down,down
+195,TwentyFiveGigE3/1/1,unassigned,down,down
+196,TwentyFiveGigE3/1/2,unassigned,down,down
+197,Ap3/0/1,unassigned,up,up
+198,GigabitEthernet4/0/1,unassigned,up,up
+199,GigabitEthernet4/0/2,unassigned,up,up
+200,GigabitEthernet4/0/3,unassigned,up,up
+201,GigabitEthernet4/0/4,unassigned,up,up
+202,GigabitEthernet4/0/5,unassigned,up,up
+203,GigabitEthernet4/0/6,unassigned,up,up
+204,GigabitEthernet4/0/7,unassigned,up,up
+205,GigabitEthernet4/0/8,unassigned,up,up
+206,GigabitEthernet4/0/9,unassigned,up,up
+207,GigabitEthernet4/0/10,unassigned,down,down
+208,GigabitEthernet4/0/11,unassigned,up,up
+209,GigabitEthernet4/0/12,unassigned,up,up
+210,GigabitEthernet4/0/13,unassigned,up,up
+211,GigabitEthernet4/0/14,unassigned,down,down
+212,GigabitEthernet4/0/15,unassigned,up,up
+213,GigabitEthernet4/0/16,unassigned,down,down
+214,GigabitEthernet4/0/17,unassigned,up,up
+215,GigabitEthernet4/0/18,unassigned,administratively down,down
+216,GigabitEthernet4/0/19,unassigned,up,up
+217,GigabitEthernet4/0/20,unassigned,administratively down,down
+218,GigabitEthernet4/0/21,unassigned,up,up
+219,GigabitEthernet4/0/22,unassigned,administratively down,down
+220,GigabitEthernet4/0/23,unassigned,up,up
+221,GigabitEthernet4/0/24,unassigned,administratively down,down
+222,GigabitEthernet4/0/25,unassigned,up,up
+223,GigabitEthernet4/0/26,unassigned,administratively down,down
+224,GigabitEthernet4/0/27,unassigned,up,up
+225,GigabitEthernet4/0/28,unassigned,administratively down,down
+226,GigabitEthernet4/0/29,unassigned,up,up
+227,GigabitEthernet4/0/30,unassigned,administratively down,down
+228,GigabitEthernet4/0/31,unassigned,up,up
+229,GigabitEthernet4/0/32,unassigned,administratively down,down
+230,GigabitEthernet4/0/33,unassigned,up,up
+231,GigabitEthernet4/0/34,unassigned,administratively down,down
+232,GigabitEthernet4/0/35,unassigned,up,up
+233,GigabitEthernet4/0/36,unassigned,administratively down,down
+234,GigabitEthernet4/0/37,unassigned,up,up
+235,GigabitEthernet4/0/38,unassigned,administratively down,down
+236,GigabitEthernet4/0/39,unassigned,up,up
+237,GigabitEthernet4/0/40,unassigned,down,down
+238,GigabitEthernet4/0/41,unassigned,up,up
+239,GigabitEthernet4/0/42,unassigned,administratively down,down
+240,GigabitEthernet4/0/43,unassigned,up,up
+241,GigabitEthernet4/0/44,unassigned,administratively down,down
+242,GigabitEthernet4/0/45,unassigned,up,up
+243,GigabitEthernet4/0/46,unassigned,administratively down,down
+244,GigabitEthernet4/0/47,unassigned,up,up
+245,GigabitEthernet4/0/48,unassigned,administratively down,down
+246,GigabitEthernet4/1/1,unassigned,down,down
+247,GigabitEthernet4/1/2,unassigned,down,down
+248,GigabitEthernet4/1/3,unassigned,down,down
+249,GigabitEthernet4/1/4,unassigned,down,down
+250,Te4/1/1,unassigned,down,down
+251,Te4/1/2,unassigned,down,down
+252,Te4/1/3,unassigned,down,down
+253,Te4/1/4,unassigned,down,down
+254,Te4/1/5,unassigned,down,down
+255,Te4/1/6,unassigned,down,down
+256,Te4/1/7,unassigned,down,down
+257,Te4/1/8,unassigned,down,down
+258,Fo4/1/1,unassigned,down,down
+259,Fo4/1/2,unassigned,down,down
+260,TwentyFiveGigE4/1/1,unassigned,down,down
+261,TwentyFiveGigE4/1/2,unassigned,down,down
+262,Ap4/0/1,unassigned,up,up
+263,GigabitEthernet5/0/1,unassigned,up,up
+264,GigabitEthernet5/0/2,unassigned,down,down
+265,GigabitEthernet5/0/3,unassigned,up,up
+266,GigabitEthernet5/0/4,unassigned,down,down
+267,GigabitEthernet5/0/5,unassigned,up,up
+268,GigabitEthernet5/0/6,unassigned,down,down
+269,GigabitEthernet5/0/7,unassigned,up,up
+270,GigabitEthernet5/0/8,unassigned,down,down
+271,GigabitEthernet5/0/9,unassigned,down,down
+272,GigabitEthernet5/0/10,unassigned,down,down
+273,GigabitEthernet5/0/11,unassigned,down,down
+274,GigabitEthernet5/0/12,unassigned,down,down
+275,GigabitEthernet5/0/13,unassigned,down,down
+276,GigabitEthernet5/0/14,unassigned,down,down
+277,GigabitEthernet5/0/15,unassigned,down,down
+278,GigabitEthernet5/0/16,unassigned,down,down
+279,GigabitEthernet5/0/17,unassigned,down,down
+280,GigabitEthernet5/0/18,unassigned,down,down
+281,GigabitEthernet5/0/19,unassigned,down,down
+282,GigabitEthernet5/0/20,unassigned,down,down
+283,GigabitEthernet5/0/21,unassigned,down,down
+284,GigabitEthernet5/0/22,unassigned,down,down
+285,GigabitEthernet5/0/23,unassigned,up,up
+286,GigabitEthernet5/0/24,unassigned,down,down
+287,GigabitEthernet5/0/25,unassigned,up,up
+288,GigabitEthernet5/0/26,unassigned,down,down
+289,GigabitEthernet5/0/27,unassigned,down,down
+290,GigabitEthernet5/0/28,unassigned,down,down
+291,GigabitEthernet5/0/29,unassigned,down,down
+292,GigabitEthernet5/0/30,unassigned,down,down
+293,GigabitEthernet5/0/31,unassigned,down,down
+294,GigabitEthernet5/0/32,unassigned,down,down
+295,GigabitEthernet5/0/33,unassigned,down,down
+296,GigabitEthernet5/0/34,unassigned,down,down
+297,GigabitEthernet5/0/35,unassigned,down,down
+298,GigabitEthernet5/0/36,unassigned,down,down
+299,GigabitEthernet5/0/37,unassigned,down,down
+300,GigabitEthernet5/0/38,unassigned,down,down
+301,GigabitEthernet5/0/39,unassigned,down,down
+302,GigabitEthernet5/0/40,unassigned,down,down
+303,GigabitEthernet5/0/41,unassigned,down,down
+304,GigabitEthernet5/0/42,unassigned,down,down
+305,GigabitEthernet5/0/43,unassigned,down,down
+306,GigabitEthernet5/0/44,unassigned,down,down
+307,GigabitEthernet5/0/45,unassigned,down,down
+308,GigabitEthernet5/0/46,unassigned,down,down
+309,GigabitEthernet5/0/47,unassigned,down,down
+310,GigabitEthernet5/0/48,unassigned,down,down
+311,GigabitEthernet5/1/1,unassigned,down,down
+312,GigabitEthernet5/1/2,unassigned,down,down
+313,GigabitEthernet5/1/3,unassigned,down,down
+314,GigabitEthernet5/1/4,unassigned,down,down
+315,Te5/1/1,unassigned,up,up
+316,Te5/1/2,unassigned,up,up
+317,Te5/1/3,unassigned,down,down
+318,Te5/1/4,unassigned,down,down
+319,Te5/1/5,unassigned,down,down
+320,Te5/1/6,unassigned,down,down
+321,Te5/1/7,unassigned,down,down
+322,Te5/1/8,unassigned,down,down
+323,Fo5/1/1,unassigned,down,down
+324,Fo5/1/2,unassigned,down,down
+325,TwentyFiveGigE5/1/1,unassigned,down,down
+326,TwentyFiveGigE5/1/2,unassigned,down,down
+327,Ap5/0/1,unassigned,up,up
+328,GigabitEthernet6/0/1,unassigned,down,down
+329,GigabitEthernet6/0/2,unassigned,up,up
+330,GigabitEthernet6/0/3,unassigned,down,down
+331,GigabitEthernet6/0/4,unassigned,up,up
+332,GigabitEthernet6/0/5,unassigned,down,down
+333,GigabitEthernet6/0/6,unassigned,up,up
+334,GigabitEthernet6/0/7,unassigned,down,down
+335,GigabitEthernet6/0/8,unassigned,up,up
+336,GigabitEthernet6/0/9,unassigned,down,down
+337,GigabitEthernet6/0/10,unassigned,up,up
+338,GigabitEthernet6/0/11,unassigned,down,down
+339,GigabitEthernet6/0/12,unassigned,up,up
+340,GigabitEthernet6/0/13,unassigned,down,down
+341,GigabitEthernet6/0/14,unassigned,down,down
+342,GigabitEthernet6/0/15,unassigned,down,down
+343,GigabitEthernet6/0/16,unassigned,up,up
+344,GigabitEthernet6/0/17,unassigned,down,down
+345,GigabitEthernet6/0/18,unassigned,up,up
+346,GigabitEthernet6/0/19,unassigned,down,down
+347,GigabitEthernet6/0/20,unassigned,up,up
+348,GigabitEthernet6/0/21,unassigned,down,down
+349,GigabitEthernet6/0/22,unassigned,down,down
+350,GigabitEthernet6/0/23,unassigned,down,down
+351,GigabitEthernet6/0/24,unassigned,down,down
+352,GigabitEthernet6/0/25,unassigned,down,down
+353,GigabitEthernet6/0/26,unassigned,down,down
+354,GigabitEthernet6/0/27,unassigned,down,down
+355,GigabitEthernet6/0/28,unassigned,down,down
+356,GigabitEthernet6/0/29,unassigned,down,down
+357,GigabitEthernet6/0/30,unassigned,down,down
+358,GigabitEthernet6/0/31,unassigned,down,down
+359,GigabitEthernet6/0/32,unassigned,down,down
+360,GigabitEthernet6/0/33,unassigned,down,down
+361,GigabitEthernet6/0/34,unassigned,down,down
+362,GigabitEthernet6/0/35,unassigned,down,down
+363,GigabitEthernet6/0/36,unassigned,down,down
+364,GigabitEthernet6/0/37,unassigned,down,down
+365,GigabitEthernet6/0/38,unassigned,down,down
+366,GigabitEthernet6/0/39,unassigned,down,down
+367,GigabitEthernet6/0/40,unassigned,down,down
+368,GigabitEthernet6/0/41,unassigned,down,down
+369,GigabitEthernet6/0/42,unassigned,down,down
+370,GigabitEthernet6/0/43,unassigned,down,down
+371,GigabitEthernet6/0/44,unassigned,down,down
+372,GigabitEthernet6/0/45,unassigned,up,up
+373,GigabitEthernet6/0/46,unassigned,down,down
+374,GigabitEthernet6/0/47,unassigned,up,up
+375,GigabitEthernet6/0/48,unassigned,down,down
+376,GigabitEthernet6/1/1,unassigned,down,down
+377,GigabitEthernet6/1/2,unassigned,down,down
+378,GigabitEthernet6/1/3,unassigned,down,down
+379,GigabitEthernet6/1/4,unassigned,down,down
+380,Te6/1/1,unassigned,down,down
+381,Te6/1/2,unassigned,down,down
+382,Te6/1/3,unassigned,down,down
+383,Te6/1/4,unassigned,down,down
+384,Te6/1/5,unassigned,down,down
+385,Te6/1/6,unassigned,down,down
+386,Te6/1/7,unassigned,down,down
+387,Te6/1/8,unassigned,down,down
+388,Fo6/1/1,unassigned,down,down
+389,Fo6/1/2,unassigned,down,down
+390,TwentyFiveGigE6/1/1,unassigned,down,down
+391,TwentyFiveGigE6/1/2,unassigned,down,down
+392,Ap6/0/1,unassigned,up,up
+393,GigabitEthernet7/0/1,unassigned,down,down
+394,GigabitEthernet7/0/2,unassigned,administratively down,down
+395,GigabitEthernet7/0/3,unassigned,down,down
+396,GigabitEthernet7/0/4,unassigned,administratively down,down
+397,GigabitEthernet7/0/5,unassigned,down,down
+398,GigabitEthernet7/0/6,unassigned,administratively down,down
+399,GigabitEthernet7/0/7,unassigned,down,down
+400,GigabitEthernet7/0/8,unassigned,administratively down,down
+401,GigabitEthernet7/0/9,unassigned,down,down
+402,GigabitEthernet7/0/10,unassigned,administratively down,down
+403,GigabitEthernet7/0/11,unassigned,down,down
+404,GigabitEthernet7/0/12,unassigned,administratively down,down
+405,GigabitEthernet7/0/13,unassigned,down,down
+406,GigabitEthernet7/0/14,unassigned,administratively down,down
+407,GigabitEthernet7/0/15,unassigned,down,down
+408,GigabitEthernet7/0/16,unassigned,administratively down,down
+409,GigabitEthernet7/0/17,unassigned,down,down
+410,GigabitEthernet7/0/18,unassigned,administratively down,down
+411,GigabitEthernet7/0/19,unassigned,down,down
+412,GigabitEthernet7/0/20,unassigned,administratively down,down
+413,GigabitEthernet7/0/21,unassigned,down,down
+414,GigabitEthernet7/0/22,unassigned,administratively down,down
+415,GigabitEthernet7/0/23,unassigned,down,down
+416,GigabitEthernet7/0/24,unassigned,administratively down,down
+417,GigabitEthernet7/0/25,unassigned,down,down
+418,GigabitEthernet7/0/26,unassigned,administratively down,down
+419,GigabitEthernet7/0/27,unassigned,down,down
+420,GigabitEthernet7/0/28,unassigned,administratively down,down
+421,GigabitEthernet7/0/29,unassigned,down,down
+422,GigabitEthernet7/0/30,unassigned,administratively down,down
+423,GigabitEthernet7/0/31,unassigned,down,down
+424,GigabitEthernet7/0/32,unassigned,administratively down,down
+425,GigabitEthernet7/0/33,unassigned,down,down
+426,GigabitEthernet7/0/34,unassigned,administratively down,down
+427,GigabitEthernet7/0/35,unassigned,down,down
+428,GigabitEthernet7/0/36,unassigned,administratively down,down
+429,GigabitEthernet7/0/37,unassigned,administratively down,down
+430,GigabitEthernet7/0/38,unassigned,administratively down,down
+431,GigabitEthernet7/0/39,unassigned,administratively down,down
+432,GigabitEthernet7/0/40,unassigned,administratively down,down
+433,GigabitEthernet7/0/41,unassigned,administratively down,down
+434,GigabitEthernet7/0/42,unassigned,administratively down,down
+435,GigabitEthernet7/0/43,unassigned,administratively down,down
+436,GigabitEthernet7/0/44,unassigned,administratively down,down
+437,GigabitEthernet7/0/45,unassigned,administratively down,down
+438,GigabitEthernet7/0/46,unassigned,administratively down,down
+439,GigabitEthernet7/0/47,unassigned,administratively down,down
+440,GigabitEthernet7/0/48,unassigned,administratively down,down
+441,GigabitEthernet7/1/1,unassigned,down,down
+442,GigabitEthernet7/1/2,unassigned,down,down
+443,GigabitEthernet7/1/3,unassigned,down,down
+444,GigabitEthernet7/1/4,unassigned,down,down
+445,Te7/1/1,unassigned,down,down
+446,Te7/1/2,unassigned,down,down
+447,Te7/1/3,unassigned,down,down
+448,Te7/1/4,unassigned,down,down
+449,Te7/1/5,unassigned,down,down
+450,Te7/1/6,unassigned,down,down
+451,Te7/1/7,unassigned,down,down
+452,Te7/1/8,unassigned,down,down
+453,Fo7/1/1,unassigned,down,down
+454,Fo7/1/2,unassigned,down,down
+455,TwentyFiveGigE7/1/1,unassigned,down,down
+456,TwentyFiveGigE7/1/2,unassigned,down,down
+457,Ap7/0/1,unassigned,up,up
+458,Bluetooth0/4,unassigned,administratively down,down
+459,Port-channel1,unassigned,up,up
+460,Port-channel10,unassigned,up,up
+461,Port-channel11,unassigned,up,up
+462,Port-channel12,unassigned,up,up
+463,Port-channel13,unassigned,up,up
+464,Port-channel14,unassigned,up,up
+465,Port-channel15,unassigned,up,up
+466,Port-channel16,unassigned,up,up
+467,Port-channel17,unassigned,up,up
+468,Port-channel18,unassigned,down,down
+469,Port-channel19,unassigned,up,up
+470,Port-channel20,unassigned,up,up
+471,Port-channel21,unassigned,up,up
+472,Port-channel113,unassigned,down,down

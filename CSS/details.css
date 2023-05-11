@@ -1,0 +1,248 @@
+
+p{
+    color:red;
+}
+/*id selector */
+#p4{
+    color:green;
+}
+/* class-selector
+*/
+/* fonts to be used on website */
+@font-face{
+    font-family:alclonica;
+    src:url('fonts/aclonica.ttf')
+}
+/* relatice css units -vh-changes with browser height ,vw,em-compares with parent div,rem-compares with <html> tag ,% */
+.dark-blue{
+    color:hotpink;
+    font-weight: 200;
+    font-size: 20px;
+    font-style: italic;
+    font-variant: small-caps;
+    cursor: grab;
+}
+.underline_it{
+    text-decoration: underline;
+    font-family:Arial, Helvetica, sans-serif
+}
+#bg{
+    background-color:aliceblue; 
+    /*border-style: dotted ;*/
+    border-style: inset;
+    /*border: 10px; */
+    /*border-style: solid dashed none dotted; /* top right down left */
+    /*padding*/
+    /*border: 20px solid blue;
+    padding-top: 40px;*/
+    box-shadow: 10px 20px 15px gray;
+    /*border-color: green; */
+    border-top-left-radius: 20px;
+    height: 100%;
+    border: 150px;
+    width: 500px;
+    resize: both;  /* resize the block by dragging */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-width: 800px;
+    /* for text content */
+    color: crimson;
+    text-align: justify;
+    text-decoration: underline;
+    line-height: 20px;
+    text-indent: 10px;
+    word-spacing: 15px;
+    white-space: pre;   /* it will print the gaps given in content as it is */
+    word-wrap: break-word;  /* it will break long word */
+    text-shadow: 3px 3px 3px yellowgreen;   /*text-shadow */
+    /*writing-mode: vertical-rl; */  /* writing style */
+    
+}
+img{
+    filter: blur(0px);
+    filter: drop-shadow(8px 8px 5px black);
+    filter: grayscale(50px);
+    filter: hue-rotate(90deg);
+}
+body{
+    /*background-color: gold; */
+    background-image: linear-gradient(to right,line-height,gray);
+    /*background-image: url('images/asur.jpg'),url('images/malang.jpeg'); */
+    background-position: bottom,right top;
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+    border: 2px;
+      
+}  
+#img5{
+    float:right;   /*to move image to adjust space*/
+}
+#margin{
+    /*margin-top: 30px; */
+    width: 300px;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;   /* will remove underline */
+}
+/* states of links in <a
+a:link{
+color: yellowgreen;
+}
+a:visited{
+color: black;
+}
+a:hover{
+color: chocolate;
+}
+a:active{
+color: darkgreen;
+}
+*/
+/* variable define*/
+:root{
+    --primary_color:teal;
+    --btn-color:blueviolet;
+
+}
+
+ul{
+    list-style-type: square;
+    background-color: var(--primary_color);   /* use of variable*/
+    
+}
+li{
+    border: 2px solid yellowgreen;
+    list-style-position: inside;
+    padding: 10px 30px;
+    color: tomato;
+
+}
+#div2{
+    background-color: greenyellow;
+    width: 500px;
+    height: 50px;
+    padding: 40px;
+    border: 30px solid blue;
+    box-sizing: content-box;
+}
+
+#div3{
+    background-color: red;
+    width: 500px;
+    height: 50px;
+    padding: 40px;
+    border: 30px solid black;
+    box-sizing: border-box;
+    
+}
+/* presulo element to keep first element to keep caps . we can insert text or image through pseudo*/
+.dark-blue::first-line{
+    font-size: 35px;
+    color: red;
+}
+/*h1::before{
+    content: url(images/arrow.png);
+    width: 10px;
+    height: 15px;
+    transform: scale(.5);
+  */
+}
+/*
+h1::after{
+    
+    content: "added after";
+}
+*/
+/*univerasl selection wisplay*/
+::selection{
+    color: red;
+    background: yellow;
+}/*
+h1::before{
+    content: url('images/arrow.png');
+    transform: scale(.5);
+}
+*/
+/* display = block,inline,inline-block,none
+block- starts with newline,takes full width,can adjust height and width :div,p.h
+inline:doesnt start with new line, not full width, cant adjust height,width
+inline-block-not new start,not full width,can adjust height,width
+none-will not occupy its position
+visibility -will occupy its position
+*/
+#p4{
+    border:1px solid blue;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+/*positions:relativ-will shift from its current position after specifying top,down but will not let other to occupy its space
+absolute-it will shifts from its parents positioned (if parent elemt is defined relative ,absolute but not static)then wil
+shift accoring to the position given. if parent is not defined posioned then will keep finding the positioned till to the body
+. other element can take ita position.absolute leaves its position
+fixed-doent change its position ,remqains fixed
+
+*/
+
+#parent{
+    background-color: chocolate;
+    width: 130px;
+    height: 100px;
+    display:inline-block
+    position: absolute;
+    z-index: 3;
+}
+#son{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    display:inline-block
+    position: absolute;
+    top:10px;
+    left:20px;
+    z-index: 1;
+    
+}
+#daughter{
+    background-color: green;
+    width: 50px;
+    height: 30px;
+    display:inline-block
+    position: relative;
+   /* top:10px;
+    left: 20px;*/
+    z-index:2;
+
+}
+/*if two blocks r layered over each other, layer with higher z-index value will be on top.z-index works only when position 
+of layers r relative,absolute,fixed. */
+
+/*navigation bar
+*/
+ol{
+    background-color: indianred;
+    list-style-type: none;
+    overflow: auto;   /* use it with float image comes out of block*/
+}
+li{
+    color: black;
+    padding: 10px 15px;
+    float: left;
+    /*clear:left;   is used to avoid imgaes/blocks side by side*/ 
+}
+
+#move{
+    padding: 20px;
+    margin: 20px;
+}
+p:hover{
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 20px 20px;
+    color: cadetblue;
+    /*transform: translate(40px,40px);*/
+    transform: rotate(-20deg);
+    display: inline-block;
+}

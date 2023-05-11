@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <style>
+        #left {
+            /*border: 2px solid green;*/
+            display: inline-block;
+            color: ivory;
+            position: absolute;
+            left:60px;
+            top:43px;
+
+        }
+        #left img{
+            width: 125px;
+            height: 80px;
+        }
+        #left div{
+            text-align: center;
+            font-size: 25px;
+        }
+        #mid{
+            display: block;
+            color: ivory;
+            width: 40%;
+            margin: 25px auto;
+        }
+        .navbar{
+            display: inline-block;
+           
+            
+        }
+        .navbar li{
+            display: inline-block;
+            /*border: 2px solid green;*/
+            font-size: 25px;
+            
+        }
+        .navbar li a{
+            padding: 23px 34px;
+            text-decoration: none;
+            
+        }
+        .last {
+            /*border: 3px solid hotpink;*/
+            display: inline-block;
+            position: absolute;
+            right: 40px;
+            top:43px;
+            
+            
+        }
+        .last button{
+            height: 25px;
+        }
+        .application{
+            /*border: 2px solid red;*/
+            display: block;
+            width: 40%;
+            margin: 110px 90px;
+            padding: 74px;
+            border-radius: 10px;
+        }
+        .form_group input{
+            display: block;
+            margin:15px 40px;
+            padding: 5px;
+            border-radius: 10px;
+            width: 400px;
+            font-size: 25px;
+            text-align: center;
+            position: relative;
+            left: 110px;
+        }
+        .application h3{
+            color: white;
+            text-align: center;
+            
+            
+        }
+        .application button{
+            width: 150px;
+            margin: 40px 300px;
+            height: 30px;
+            border-radius: 5px;
+            
+        }
+
+        body {
+            background-image: url('gym.jpg');
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="left">
+            <img src="raj_gym.jpg">
+            <div>raj fitness club</div>
+
+
+        </div>
+        <div id="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"></a>Home</li>
+                <li><a href="#" ></a>aboutUs</li>
+                <li><a href="#" ></a>fitnessCalculater</li>
+                <li><a href="#" ></a>contactUs</li>
+               
+                
+            </ul>
+
+        </div>
+        <div class="last">
+            <button type="button" class="btn">call us now</button>
+            <button type="button" class="btn">Email us</button>
+        </div>
+
+    </header>
+    <div class="application">
+        <h3>Bengaluru Best fitness club</h3>
+        <form action="application.php">
+            <div class="form_group">
+                <input type="text" name="name" placeholder="Enter ur name">
+            </div>
+            <div class="form_group">
+                <input type="text" name="name" placeholder="Enter ur place">
+            </div>
+            <div class="form_group">
+                <input type="text" name="name" placeholder="Enter ur Mobile">
+            </div>
+            <div class="form_group">
+                <input type="text" name="name" placeholder="Enter ur Email">
+            </div>
+            <div class="form_group">
+                <input type="text" name="name" placeholder="Enter ur Timing">
+            </div>
+            <button  class="btn" >Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
